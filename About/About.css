@@ -1,1 +1,16 @@
+body {
+background-color: #00ff6a;
+font-family: courier new
+}
 
+.Welcome {
+text-align: center;
+background-color: black;
+font-size: 50px;
+padding: 25px;
+width: 1255px;
+position: relative;
+right: 8px;
+top: -34px;
+color: white;
+}
