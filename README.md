@@ -15,6 +15,6 @@ IFramR is almost a proxy but also isn't. It will have iframes such as Google and
 
 🟩 Link the About section to the IFramR page for easy access.
 
-🟨 Start writing the About section in HTML code.
+🟩 Start writing the About section in HTML code.
 
 🟨 Start the actual iframe part!
