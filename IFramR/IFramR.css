@@ -1,0 +1,55 @@
+/* i hate new projects */
+body {
+	background-color:  #00ff6a;
+	font-family: courier new;
+	color: black;
+}
+
+a {
+	target: _blank;
+	text-decoration: none;
+	color: darkgreen;
+}
+
+.Welcome {
+	text-align: center;
+	background-color: black;
+	font-size: 50px;
+	padding: 25px;
+	width: 1255px;
+	position: relative;
+	right: 8px;
+	top: -34px;
+}
+
+.About1 {
+	position: relative;
+	left: 20px
+}
+
+.About2 {
+	position: relative;
+	left: 20px;
+}
+
+.IframesHeader {
+	text-align: center;
+	border-bottom: 25px solid black;
+	width: 1305px;
+	position: relative;
+	right: 8px;
+}
+
+.IframeHeading {
+	text-align: center;
+}
+
+/* why am i doing this to myself */
+
+.Iframe {
+	position: relative
+}
+
+.Align {
+	text-align: center;
+}
