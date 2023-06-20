@@ -1,0 +1,33 @@
+<!-- i hate making new projects -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Google</title>
+<link rel="stylesheet" href="IFramR.css">
+</head>
+<body>
+	<h1 style="color: lime" class="Welcome">
+		<span style="color: white">Welcome to </span>I<span style="color: 		white">Fram</span>R
+	</h1>
+	<!-- yeah im done this is probably gonna be archived just like all my other projects lol -->
+	<h1>
+		<span class="About1">If you need more information on what IFramR is, you 		can find the about section </span>
+		<a class="About2" href="/About/About.html">Here</a>
+	</h1>
+<!-- wait nvm this is the hard part -->
+	<br>
+	<h1 class="IframesHeader">IFrames</h1>
+	<br>
+	<h1 class="IframeHeading">Bing</h1>
+	<iframe src="https://bing.com" width="1000" height="500" class="Iframe">Bing</iframe>
+	<br>
+	<h2 class="Align">
+	Need a bookmarklet to access anywhere? Use this
+	<a href="javascript:(function() {  var startX, startY, modal, diffX, diffY;  modal = document.createElement('iframe');  modal.setAttribute('src', 'https://bing.com');  modal.setAttribute('id', 'rusic-modal');  modal.setAttribute('style', 'position: fixed; z-index: 500000; width: 500px; height: 500px; right: 10px; top: 10px; border-radius: 20px; border: 10px solid #666666; overflow: hidden; background-color: #fff;');  document.body.appendChild(modal);    modal.addEventListener('mousedown', function(event) {    startX = event.clientX;    startY = event.clientY;    diffX = startX - modal.offsetLeft;    diffY = startY - modal.offsetTop;    document.addEventListener('mousemove', onMove);    document.addEventListener('mouseup', onUp);  });    function onMove(event) {    modal.style.left = (event.clientX - diffX) + 'px';    modal.style.top = (event.clientY - diffY) + 'px';  }    function onUp(event) {    document.removeEventListener('mousemove', onMove);    document.removeEventListener('mouseup', onUp);  }})();" alt="Bing bookmarklet">Bing</a>
+	bookmarklet!
+	</h2>
+</body>
+</html>
