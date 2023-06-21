@@ -17,6 +17,12 @@
 		<span class="About1">If you need more information on what IFramR is, you 		can find the about section </span>
 		<a class="About2" href="/About/About.html">Here</a>
 	</h1>
+	<br>
+	<h2 id="Enter-Name-Header">Enter your name here.</h2>
+	<br>
+	<input type="text" id="Enter-Name">
+	<br><br>
+	<button id="Enter-Name-Submit">submit</button>
 <!-- wait nvm this is the hard part -->
 	<br>
 	<h1 class="IframesHeader">IFrames</h1>
@@ -29,5 +35,7 @@
 	<a href="javascript:(function() {  var startX, startY, modal, diffX, diffY;  modal = document.createElement('iframe');  modal.setAttribute('src', 'https://bing.com');  modal.setAttribute('id', 'rusic-modal');  modal.setAttribute('style', 'position: fixed; z-index: 500000; width: 500px; height: 500px; right: 10px; top: 10px; border-radius: 20px; border: 10px solid #666666; overflow: hidden; background-color: #fff;');  document.body.appendChild(modal);    modal.addEventListener('mousedown', function(event) {    startX = event.clientX;    startY = event.clientY;    diffX = startX - modal.offsetLeft;    diffY = startY - modal.offsetTop;    document.addEventListener('mousemove', onMove);    document.addEventListener('mouseup', onUp);  });    function onMove(event) {    modal.style.left = (event.clientX - diffX) + 'px';    modal.style.top = (event.clientY - diffY) + 'px';  }    function onUp(event) {    document.removeEventListener('mousemove', onMove);    document.removeEventListener('mouseup', onUp);  }})();" alt="Bing bookmarklet">Bing</a>
 	bookmarklet!
 	</h2>
+	
+	<script src="IFramR.js"></script>
 </body>
 </html>
